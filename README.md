@@ -2,21 +2,12 @@
 
 This repository contains starter code for working with Large Language Models (LLMs). It is designed to help data scientists and developers quickly bootstrap projects involving LLMs with a focus on ease of use, scalability, and best practices in machine learning and data analysis.
 
-## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+## Use cases
+This repo shows how to run LLMs with the use of QLora,bitsandbytes, and also how to save and reload weights through HuggingFace. This repo also contains a docker file template that you can use to make the training of LLMs on multiple environments feasible.
 
-### Prerequisites
+## Acknowlegement
 
-Before you begin, ensure you have met the following requirements:
+This code was heavily inspired by the notebook posted by Ibrahim Sobh - PhD on LinkedIn:
 
-- Python 3.6 or later
-- pip package manager
-- Virtual environment (recommended)
-
-### Installation
-
-To install the required libraries, run the following command in your virtual environment:
-
-```bash
-pip install -r requirements.txt
+https://www.linkedin.com/posts/ibrahim-sobh-phd-8681757_google-colaboratory-activity-7094832945886048256-rZFk?utm_source=share&utm_medium=member_desktop
